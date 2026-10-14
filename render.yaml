@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: woolpack-quiz-trial
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /api/state
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: VENUE_NAME
+        value: The Woolpack, Esholt
+      - key: ADMIN_KEY
+        generateValue: true

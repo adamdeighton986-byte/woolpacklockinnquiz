@@ -1,0 +1,9 @@
+WOOLPACK QUIZ — STAY SIGNED IN FIX
+
+Upload TWO replacement files to your existing GitHub repository:
+  public/app.js
+  public/index.html
+
+In GitHub open each file, choose Edit (pencil), paste the entire replacement file content, and Commit changes. Or use GitHub upload to replace them. Wait for Render to say Live. On each player phone refresh the page once.
+
+This fix prevents the browser from deleting a saved team ID when a state response temporarily lacks a team. It does not fix Render server restarts or game resets.

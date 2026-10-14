@@ -1,0 +1,13 @@
+THE WOOLPACK QUIZ — FRESH RENDER VERSION
+
+1. Unzip this download on your computer.
+2. Create a NEW GitHub repository (e.g. woolpack-quiz-fresh).
+3. Upload ALL files AND the public folder. Your GitHub repository must show:
+   server.js, package.json, render.yaml, README.md, START-HERE.txt, and public/
+4. Click public/ and confirm it contains index.html, app.js, style.css.
+5. On Render choose New > Blueprint, connect the new GitHub repository and deploy.
+6. Wait for Live and open the new Render URL.
+7. In Render > Environment, find ADMIN_KEY; use it only on the quizmaster screen.
+
+IMPORTANT: Do not paste JavaScript code into Render. Upload the files to GitHub.
+Free Render instances can restart and erase scores; use this for trials only.
